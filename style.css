@@ -789,3 +789,15 @@ footer {
     line-height: 20px;
   }
 }
+
+@media screen and (max-width: 314px) {
+  .footer-appstore-logo {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .footer-appstore-logo div:last-child {
+    margin: 0 !important;
+    margin-top: 20px !important;
+  }
+}
